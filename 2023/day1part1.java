@@ -3,12 +3,6 @@ import java.io.FileReader;
 
 public class day1part1{
   public static void main(String args[]){
-    String text="""
-     1abc2
-pqr3stu8vwx
-a1b2c3d4e5f
-treb7uchet
-    """;
     try{
         BufferedReader br= new BufferedReader(new FileReader("/workspaces/adventofcode/2023/day1part1.txt"));
         int val=0;
